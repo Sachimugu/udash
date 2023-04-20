@@ -160,7 +160,7 @@ def updatePage1(dropdown):
         x='name',
         orientation='h',
         barmode='group',
-        title='Total by States',
+        title='Top 10',
         height=500,
         # text='scores_overall',
         # template='plotly_dark',
@@ -199,7 +199,7 @@ def updatePage1(dropdown):
         x=list(continent.index),
     #     orientation='h',
         barmode='group',
-        title='Total by States',
+        title='Total by Continent',
         height=220,
         text=list(continent.values)
         # template='plotly_dark',
