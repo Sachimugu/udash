@@ -1,0 +1,90 @@
+small {
+  color: aqua;
+  font-size: 8px;
+  word-break: break-all;
+}
+
+h5{
+  color: aqua;
+  font-weight: bold;
+
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+.navlink {
+  /* border: rgb(108, 224, 224) 1px solid; */
+  border-radius: 3px;
+
+  /* color: black; */
+  margin: 3px;
+}
+.active {
+  border: transparent;
+  border: rgb(108, 224, 224) 1px solid;
+  border-radius: 3px;
+  padding: 5px 10px;
+  /* background-color: transparent; */
+}
+.header {
+  padding: 10px;
+}
+.heading {
+  text-align: center;
+  font-weight: 800;
+}
+.numberBoxCon {
+  display: flex;
+
+  gap: 2px;
+  margin-bottom: 2px;
+}
+.numberBox {
+  padding-top: 10px;
+text-align: center;
+  height: 105px;
+  flex-basis: 0;
+  flex-grow: 1;
+  /* min-width: 45%; */
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #060606;
+}
+
+
+.numberBoxx {
+  padding-top: 10px;
+text-align: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  /* min-width: 45%; */
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #060606;
+}
+.dropdown {
+margin: 2px;
+}
+
+.pieChart{
+  flex-basis: 0;
+  flex-grow: 1;
+	background-color: #1a1a1a;
+	border: solid;
+	border-width: 1px;
+	border-color: #060606;
+  height: 220px;
+}
