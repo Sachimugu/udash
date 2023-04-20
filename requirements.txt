@@ -26,4 +26,4 @@ tenacity
 tzdata
 Werkzeug
 zipp
-gunicron
+gunicorn
