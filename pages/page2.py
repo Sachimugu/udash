@@ -81,11 +81,12 @@ def page1():
     ],width=6),
 # ====================
 
+    dbc.Col([
         html.Div([
-                dcc.Dropdown(id='dropdown', value=2023, options=[{'label': i, 'value': i} for i in value],
-                placeholder="year",className='dropdown'),
-            ], className='dropDownBox'),
-            
+            dcc.Dropdown(id='dropdown', value=2023, options=[{'label': i, 'value': i} for i in value],
+            placeholder="year",className='dropdown'),
+        ], className='dropDownBox'),
+
          html.Div([
             numberBox('stats_pc_intl_students', stats_pc_intl_students, 'box72', 'stat intl students')
         ], className='numberBoxCon',),
@@ -162,7 +163,7 @@ def updatePage1(dropdown):
         x='name',
         orientation='h',
         barmode='group',
-        title='Total by States',
+        title='Top 10',
         height=500,
         # text='scores_overall',
         # template='plotly_dark',
@@ -201,7 +202,7 @@ def updatePage1(dropdown):
         x=list(continent.index),
     #     orientation='h',
         barmode='group',
-        title='Total by States',
+        title='Total by Continent',
         height=220,
         text=list(continent.values)
         # template='plotly_dark',
