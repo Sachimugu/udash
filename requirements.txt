@@ -14,7 +14,7 @@ itsdangerous==2.1.2
 Jinja2==3.1.2
 jsbeautifier==1.14.7
 MarkupSafe==2.1.2
-more-itertools
+more-itertools==9.0.0
 numpy
 packaging==23.1
 pandas
