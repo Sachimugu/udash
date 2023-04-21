@@ -53,5 +53,5 @@ app.layout = html.Div([
 
 
 if __name__ == '__main__':
-    app.run_server()#dev_tools_hot_reload=False)
+    app.run.server()#dev_tools_hot_reload=False)
 # dev_tools_hot_reload=False

@@ -68,7 +68,7 @@ def page1():
     ],width=3),
 # ====================
     dbc.Col([
-    html.Div(dbc.Col('Total By Location',className='numberBox', style={'height':'36px'}),className='numberBoxCon'),
+    html.Div(dbc.Col('Location',className='numberBox', style={'height':'36px'}),className='numberBoxCon'),
 
     html.Div(dcc.Graph(id='map1', figure=px.line(), config={'modeBarButtonsToRemove': ['zoom2d', 'pan2d', 'select2d', 'lasso2d', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d']}, className='numberBoxx', style={'height':'315px', }),className='numberBoxCon',),
 
@@ -192,7 +192,7 @@ def updatePage1(dropdown):
     continent=df.groupby('continent').count()['name']
 
 
-    kolor=[ 'aqua']*len(top10)
+    kolor=[ 'aqua']*len(continent)
     bar2=px.bar(
     #     data_frame=x,
         y=list(continent.values),
